@@ -1,0 +1,31 @@
+# Ignore all object files and other temporary files
+*.o
+*.ko
+*.mod.c
+*.mod.o
+*.cmd
+*.symvers
+*.order
+*.tmp
+
+# Ignore output directories
+/Module.symvers
+/modules.order
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore compiled kernel modules and related files
+*.ko.*
+*.mod.*
+*.mod.cmd
+*.o.cmd
+
+# Ignore editor swap files and backup files
+*~
+*.swp
+
+# Ignore Makefile generated files
+Module.markers
+modules.builtin
+modules.builtin.modinfo
